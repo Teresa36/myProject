@@ -31,7 +31,11 @@
         <ion-item-sliding id="item100"  *ngFor="let cont of contacts">
           <ion-item href="#">
             <ion-avatar slot="start">
-              <img src="assets/img/contact.jpg" alt="Coudnt load image" width="600" height="400">
+<<<<<<< HEAD
+              <img src="assets/img/icon.jpg" alt="Coudnt load image" width="600" height="400">
+=======
+              <img src="assets/img/cover_photo.jfif" alt="Coudnt load image" width="600" height="400">
+>>>>>>> ecabb7a488002d540aa4a0c42f4e0f5fb1565cc1
             </ion-avatar>
             <ion-label>
               <h3>{{cont.name}}</h3>
@@ -44,7 +48,7 @@
               <ion-icon slot="icon-only" name="trash" (click)="showConfirm(cont)"></ion-icon>
             </ion-item-option>
             <ion-item-option>
-              <ion-icon slot="icon-only" name="mail"></ion-icon>
+              <ion-icon slot="icon-only" name="mail" routerLink="message"></ion-icon>
             </ion-item-option>
           </ion-item-options>
         </ion-item-sliding>

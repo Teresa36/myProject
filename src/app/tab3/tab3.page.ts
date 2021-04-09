@@ -36,7 +36,7 @@ export class Tab3Page {
   async showConfirm(cont) {  
     const confirm = await this.alertCtrl.create({  
       header: 'Confirm!',  
-      message: 'Confrim to delete?',  
+      message: 'ARE YOU SURE YOU WANT TO DELETE THIS CONTACT?',  
       buttons: [  
         {  
           text: 'Cancel',  
